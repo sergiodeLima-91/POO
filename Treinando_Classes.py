@@ -5,6 +5,10 @@ class Nome():
     def SobreNome(self, sobrenome):
         self.sobrenome = sobrenome
         print(self.sobrenome)
+    def Idade(self, idade):
+        self.idade = idade
+        print(f'Idade: {self.idade} anos')
 Pessoa = Nome('Sérgio')
 Pessoa.SobreNome(' Lima')
-print(Pessoa.SobreNome)
+Pessoa.Idade('32')
+print(Pessoa.SobreNome.Idade)
