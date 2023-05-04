@@ -6,5 +6,5 @@ class Nome():
         self.sobrenome = sobrenome
         print(self.sobrenome)
 Pessoa = Nome('Sérgio')
-Pessoa.SobreNome(' dos Santos Lima')
+Pessoa.SobreNome(' Lima')
 print(Pessoa.SobreNome)
