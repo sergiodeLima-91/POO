@@ -12,5 +12,4 @@ print(f'Idade: {Pessoa.idade}')
 Pessoa2 = Personalidade('Antônio',' Veranês', '26 anos')
 print(f'{Pessoa2.nome}', end='')
 print(Pessoa2.sobrenome)
-print(f'Idade: {Pessoa2.idade}')
-        
+print(f'Idade: {Pessoa2.idade}')        
