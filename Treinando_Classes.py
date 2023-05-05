@@ -11,4 +11,4 @@ class Nome():
 Pessoa = Nome('Sérgio')
 Pessoa.SobreNome(' Lima')
 Pessoa.Idade('32')
-print(Pessoa.SobreNome.Idade)
+print(Pessoa.SobreNome)
