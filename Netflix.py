@@ -23,5 +23,6 @@ Cliente1 = cliente(NomeCliente, IdadeCliente, SexoCLiente)
 print(f'Nome: {Cliente1.nome}')
 print(f'Idade: {Cliente1.idade}')
 print(f'Sexo: {Cliente1.sexo}')
+print(f'Produção escolhida: ', end='')
 Cliente1.escolherFilmeSerie(Escolha)
         
